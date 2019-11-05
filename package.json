@@ -1,0 +1,38 @@
+{
+	"name": "mailgun-cobalt-int-emailer",
+	"version": "1.0.0",
+	"description": "Use mailgun and cobalt intelligence for easy email marketing.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/mailgun-cobalt-int-emailer.git"
+	},
+	"keywords": [
+		"typescript",
+		"javascript",
+		"email",
+		"marketing",
+		"mailgun",
+		"cobalt",
+		"intelligence"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/mailgun-cobalt-int-emailer/issues"
+	},
+	"homepage": "https://github.com/aarmora/mailgun-cobalt-int-emailer#readme",
+	"devDependencies": {
+		"@types/dotenv": "^8.2.0",
+		"@types/node": "^12.12.5",
+		"typescript": "^3.6.4"
+	},
+	"dependencies": {
+		"csv-parser": "^2.3.1",
+		"dotenv": "^8.2.0",
+		"mailgun-js": "^0.22.0"
+	}
+}
