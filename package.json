@@ -4,7 +4,8 @@
 	"description": "Use mailgun and cobalt intelligence for easy email marketing.",
 	"main": "./dist/index.js",
 	"scripts": {
-		"start": "tsc && node ./dist/index.js"
+		"start": "tsc && node ./dist/index.js",
+		"start:test": "tsc && node ./dist/tester.js"
 	},
 	"repository": {
 		"type": "git",
